@@ -1,0 +1,39 @@
+/****************************
+GENERAL
+*****************************/
+body {
+  font-family: 'Opens San', 'sans serif';
+background-image: url("/resources/img/background.jpg");
+}
+
+#wrapper{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/****************************
+HEADING
+*****************************/
+
+
+header{
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  margin: 15px ;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
