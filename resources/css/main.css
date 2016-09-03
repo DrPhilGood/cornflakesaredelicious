@@ -7,15 +7,25 @@ background-image: url("/resources/img/background.jpg");
 }
 
 #wrapper{
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  padding: 50
 
 }
+
 
 a {
   text-decoration: none;
 }
+
+.gsbutton1 {
+  padding: 8 50;
+  border-radius: 15px;
+  background-color: coral
+}
+
 
 /****************************
 HEADING
@@ -23,7 +33,7 @@ HEADING
 
 
 header{
-  float: left;
+  float: center;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
@@ -32,8 +42,42 @@ header{
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  margin: 15px ;
+  margin: auto;
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
+  padding: 20
+}
+
+h3 {
+  float: right;
+  padding: 8 10;
+  border-radius: 15px
+}
+
+
+#calltoaction {
+
+  padding:40
+}
+/****************************
+NAVIGATION
+*****************************/
+
+nav {
+  text-align: center;
+  padding: 10 0;
+  margin: 20 0 0
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 30px;
 }
