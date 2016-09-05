@@ -16,11 +16,7 @@ body {
 }
 
 
-.gsbutton1 {
-  padding: 8 50;
-  border-radius: 15px;
-  background-color: coral
-}
+
 
 
 /****************************
@@ -38,22 +34,40 @@ header{
 
 }
 
-
-h1 {
-  font-family: 'Raleway', sans-serif;
-  margin: auto;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-  padding: 20
-}
-
 h3 {
+  font-family: 'Dosis', sans-serif;
   float: right;
   padding: 8 10;
   border-radius: 15px
 }
 
+/****************************
+BODY
+*****************************/
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  margin: auto;
+  font-size: 1.75em;
+  line-height: 0.8em;
+  padding: 20
+}
+
+h4 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+.gsbutton1 {
+  font-family: 'Dosis', sans-serif;
+  padding: 8 50;
+  border-radius: 15px;
+  font-weight: 700;
+  background-color: coral;
+
+
+}
 
 #calltoaction {
 
@@ -65,6 +79,7 @@ NAVIGATION
 
 nav {
   text-align: center;
+  font-family: 'Dosis', sans-serif;
 }
 
 nav ul {
